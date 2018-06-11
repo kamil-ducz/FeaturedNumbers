@@ -10,7 +10,44 @@ namespace FeaturedNumbers
     {
         public static int GetNextFeaturedNumber(int value)
         {
-            //TODO implement here
+            while (!ifOdd(value) || !ifDivideByThree(value) || !ifDifferentDigits(value))
+            {
+                value++;
+            }
+            return value;
+            
+
+        }
+
+        public static bool ifOdd(int value)
+        {
+        return (value % 2 == 1);
+        }
+
+        public static bool ifDivideByThree(int value)
+        {
+
+            return (value % 3 == 0);
+        }
+        //TODO
+        public static bool ifDifferentDigits(int value)
+        {
+            string tabValue = value.ToString();
+            bool digitFlag = true;
+            for(int i=0; i<tabValue.Length; i++)
+            {
+                for(int j=0; i<tabValue.Length; j++)
+                {
+                    if (tabValue[i] == tabValue[j])
+                    {
+                        digitFlag = false;
+                        return digitFlag;
+                    }
+                        
+                }
+                
+            }
+            return true;
         }
     }
 }
