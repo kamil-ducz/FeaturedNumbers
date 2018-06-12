@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeaturedNumbers", "FeaturedNumbers\FeaturedNumbers.csproj", "{88459A76-F8DC-4735-B770-FA075ADCC85E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeaturedNumbersConsole", "FeaturedNumbers\FeaturedNumbersConsole.csproj", "{88459A76-F8DC-4735-B770-FA075ADCC85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeaturedNumbers.Tests", "FeaturedNumbers.Tests\FeaturedNumbers.Tests.csproj", "{96C20AB2-17C6-43F9-96A9-1EC609A3CCC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeaturedNumbersLib", "FeaturedNumbersLib\FeaturedNumbersLib.csproj", "{0C6AC463-C053-419B-8959-0F90361F638B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{88459A76-F8DC-4735-B770-FA075ADCC85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88459A76-F8DC-4735-B770-FA075ADCC85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88459A76-F8DC-4735-B770-FA075ADCC85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C20AB2-17C6-43F9-96A9-1EC609A3CCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C20AB2-17C6-43F9-96A9-1EC609A3CCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C20AB2-17C6-43F9-96A9-1EC609A3CCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C20AB2-17C6-43F9-96A9-1EC609A3CCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6AC463-C053-419B-8959-0F90361F638B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6AC463-C053-419B-8959-0F90361F638B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6AC463-C053-419B-8959-0F90361F638B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6AC463-C053-419B-8959-0F90361F638B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

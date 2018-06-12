@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FeaturedNumbers
 {
-    class MathHelper
+    public class MathHelper
     {
         public static int GetNextFeaturedNumber(int value)
         {

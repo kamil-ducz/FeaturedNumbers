@@ -1,0 +1,10 @@
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\bin\Debug\FeaturedNumbers.exe.config
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\bin\Debug\FeaturedNumbers.exe
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\bin\Debug\FeaturedNumbers.pdb
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\bin\Debug\FeaturedNumbersLib.dll
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\bin\Debug\FeaturedNumbersLib.pdb
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\obj\Debug\FeaturedNumbersConsole.csprojResolveAssemblyReference.cache
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\obj\Debug\FeaturedNumbersConsole.csproj.CoreCompileInputs.cache
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\obj\Debug\FeaturedNumbersConsole.csproj.CopyComplete
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\obj\Debug\FeaturedNumbers.exe
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbers\obj\Debug\FeaturedNumbers.pdb
