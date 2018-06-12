@@ -14,9 +14,7 @@ namespace FeaturedNumbers
             {
                 value++;
             }
-            return value;
-            
-
+            return value;        
         }
 
         public static bool ifOdd(int value)
@@ -29,24 +27,23 @@ namespace FeaturedNumbers
 
             return (value % 3 == 0);
         }
-        //TODO
+
         public static bool ifDifferentDigits(int value)
         {
             string tabValue = value.ToString();
             bool digitFlag = true;
-            for(int i=0; i<tabValue.Length; i++)
+            for (int i = 0; i<tabValue.Length; i++)
             {
-                for(int j=0; i<tabValue.Length; j++)
+                for(int j = i+1; j < tabValue.Length; j++)
                 {
                     if (tabValue[i] == tabValue[j])
                     {
                         digitFlag = false;
                         return digitFlag;
                     }
-                        
                 }
-                
             }
+            
             return true;
         }
     }

@@ -22,13 +22,15 @@ namespace FeaturedNumbers
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Input number:");
             string value = Console.ReadLine();
-            if(int.TryParse(value, out int result))
+            if (int.TryParse(value, out int result))
             {
                 try
                 {
                     int finalValue = MathHelper.GetNextFeaturedNumber(int.Parse(value));
+
                     Console.WriteLine(finalValue);
                 }
                 catch
