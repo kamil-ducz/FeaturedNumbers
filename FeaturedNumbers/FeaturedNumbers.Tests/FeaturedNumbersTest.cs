@@ -21,7 +21,7 @@ namespace FeaturedNumbers.Tests
         [TestMethod]
         public void TestDifferentDigits()
         {
-            Assert.IsTrue(MathHelper.ifDifferentDigits(89721));
+            Assert.IsTrue(MathHelper.ifDifferentDigits(456781));
         }
 
         [TestMethod]
