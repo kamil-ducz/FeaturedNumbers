@@ -3,3 +3,4 @@ C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbersLib\bin\Debug\
 C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbersLib\obj\Debug\FeaturedNumbersLib.csproj.CoreCompileInputs.cache
 C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbersLib\obj\Debug\FeaturedNumbersLib.dll
 C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbersLib\obj\Debug\FeaturedNumbersLib.pdb
+C:\dotnet projects\FeaturedNumbers\FeaturedNumbers\FeaturedNumbersLib\obj\Debug\FeaturedNumbersLib.csprojResolveAssemblyReference.cache
