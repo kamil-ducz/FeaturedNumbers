@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace FeaturedNumbers
 {
@@ -13,7 +9,8 @@ namespace FeaturedNumbers
             do
             {
                 value++;
-            } while ((!ifOdd(value) || !ifDivideByThree(value) || !ifDifferentDigits(value)));
+            }
+            while (!ifOdd(value) || !ifDivideByThree(value) || !ifDifferentDigits(value));
 
             return value;
         }
@@ -31,7 +28,7 @@ namespace FeaturedNumbers
         public static bool ifDifferentDigits(int value)
         {
             string tabValue = value.ToString();
-            
+
             return tabValue.Distinct().Count() == tabValue.Length;
         }
     }

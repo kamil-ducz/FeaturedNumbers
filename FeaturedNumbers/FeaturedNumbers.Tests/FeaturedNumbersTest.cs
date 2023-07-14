@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FeaturedNumbers.Tests
 {
@@ -30,8 +29,5 @@ namespace FeaturedNumbers.Tests
             Assert.AreEqual(15, MathHelper.GetNextFeaturedNumber(12));
             Assert.AreEqual(105, MathHelper.GetNextFeaturedNumber(99));
         }
-
-
-
     }
 }
